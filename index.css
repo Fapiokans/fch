@@ -1,0 +1,52 @@
+/*ホーム*/
+
+.home-profile {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 32px;
+}
+.home-profile-image {
+  position: relative;
+  width: 100%;
+  display:flex
+}
+.home-profile-image img {
+  position: relative;
+  width: 10%;
+  height: 10%;
+}
+.home-profile-names {
+  height: 10%;
+}
+.profile-name {
+  font-size: 32px;
+}
+
+/*チャット*/
+.chat-search {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.chat-search input {
+  position: absolute;
+  left: 50%;
+  top: 24px;
+  font-size: 32px;
+  width: 50%;
+  margin-right:-50%;
+  transform: translate(-50%);
+}
+#menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: double 2px #000;
+}
+#menu img {
+  width: 128px;
+}

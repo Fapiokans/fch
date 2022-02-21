@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fapiokans Chat</title>
+</head>
+<body>
+  <div id="menu">
+    <img onclick="change('home')" src="https://media.discordapp.net/attachments/913725588349517844/939895695291334756/1644158943033.png">
+    <img onclick="change('chat')" src="https://media.discordapp.net/attachments/913725588349517844/939895695530405898/1644158953314.png">
+    <iMg onclick="change('setting')" src="https://media.discordapp.net/attachments/913725588349517844/939895695907901450/1644158970166.png">
+  </div>
+  <div id="home" style="display: none">
+    <br>
+    <div class="home-profile-image">
+      <img src="unknown.png" id="home-icon">
+      <div class="home-profile-names">
+        <a class="profile-name">とむ</a>
+        <br>
+        <br>
+        <a>ぼくとむ</a>
+      </div>
+    </div>
+    <br>
+    <button class="home-profile">プロフィールの設定</button>
+  </div>
+  <div id="chat" style="">
+    <div class="chat-search">
+      <select>
+        <option>名前検索</option>
+        <option>ID検索</option>
+      </select>
+      <form>
+        <input type="text" placeholder="検索" name="server_name">
+      </form>
+    <div id="chat-list"></div>
+  </div>
+  <div id="setting" style="display: none">
+    
+  </div>
+  <div id="new-fch-user">
+    
+  </div>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
